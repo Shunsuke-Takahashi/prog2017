@@ -1,0 +1,99 @@
+import turtle
+turtle = turtle.Turtle()
+
+turtle.home()
+turtle.clear()
+
+for j in range(4):
+  for i in range(4):
+    turtle.forward(200)
+    turtle.left(90)
+  turtle.left(-90)
+
+turtle.home()
+turtle.clear()
+
+for x in range(2):
+ turtle.forward(80)
+ turtle.left(-90)
+ turtle.forward(80)
+ turtle.left(-90)
+ turtle.forward(80)
+ turtle.left(-90)
+ turtle.forward(80)
+ turtle.left(90)
+ turtle.up()
+ turtle.forward(90)
+ turtle.down()
+ turtle
+ 
+ 
+ turtle.up()
+ turtle.forward(5)
+ turtle.down()
+ 
+for j in range(8):
+ turtle.forward(80)
+ turtle.forward(-80)
+ turtle.up()
+ turtle.left(-90)
+ turtle.forward(10)
+ turtle.left(90)
+ turtle.down()
+ 
+ 
+ def fune(v):
+   i=v+3
+   return i
+   
+ func(5)
+ 
+ func(15)
+ 
+ func(20)
+ 
+ s=0
+ for x in range(1,101):
+   s+=x
+
+s
+
+def total(n):
+  s=0
+  for x in range(1,n+1):
+    s+=x
+  return s
+
+total(100)
+
+total(10)
+
+total(1000)
+
+def rect(x, y, a):
+  turtle.up()
+  turtle.home()
+  turtle.forward(x)
+  turtle.left(90)
+  turtle.forward(y)
+  turtle.down()
+  for i in range(4):
+    turtle.forward(a)
+    turtle.left(-90)
+
+def yline(x, y, a):
+  turtle.up()
+  turtle.home()
+  turtle.forward(x)
+  turtle.left(90)
+  turtle.forward(y)
+  turtle.down()
+  turtle.forward(a)
+
+turtle.claer()
+rect(110,-110,100)
+rect(110,0,100)
+rect(0,-110,100)
+rect(0,0,100)  
+ 
+ 
